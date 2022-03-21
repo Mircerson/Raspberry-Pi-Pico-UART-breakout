@@ -1,0 +1,472 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Raspberry Pi Pico Uart Adapter"
+Date "1"
+Rev "2"
+Comp ""
+Comment1 "102-2"
+Comment2 "AERQ PROGRAMMER"
+Comment3 "SPARE UARTS"
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x03_Female UART0
+U 1 1 6179C26D
+P 4350 1200
+F 0 "UART0" H 4378 1226 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4378 1135 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4350 1200 50  0001 C CNN
+F 3 "~" H 4350 1200 50  0001 C CNN
+	1    4350 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 1450 0    50   Input ~ 0
+UART0_TX
+Text GLabel 1600 1550 0    50   Input ~ 0
+UART0_RX
+Text GLabel 4150 1100 0    50   Input ~ 0
+UART0_TX
+Text GLabel 4150 1200 0    50   Input ~ 0
+UART0_RX
+$Comp
+L power:GND #PWR0102
+U 1 1 617A0AF0
+P 4150 1300
+F 0 "#PWR0102" H 4150 1050 50  0001 C CNN
+F 1 "GND" V 4155 1172 50  0000 R CNN
+F 2 "" H 4150 1300 50  0001 C CNN
+F 3 "" H 4150 1300 50  0001 C CNN
+	1    4150 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 1600 1950 0    50   Input ~ 0
+UART1_TX
+Text GLabel 1600 2050 0    50   Input ~ 0
+UART1_RX
+$Comp
+L power:GND #PWR0103
+U 1 1 617A844F
+P 1600 2150
+F 0 "#PWR0103" H 1600 1900 50  0001 C CNN
+F 1 "GND" V 1605 2022 50  0000 R CNN
+F 2 "" H 1600 2150 50  0001 C CNN
+F 3 "" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 617AAAD3
+P 1600 3150
+F 0 "#PWR0105" H 1600 2900 50  0001 C CNN
+F 1 "GND" V 1605 3022 50  0000 R CNN
+F 2 "" H 1600 3150 50  0001 C CNN
+F 3 "" H 1600 3150 50  0001 C CNN
+	1    1600 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 4750 2375 0    50   Input ~ 0
+UART1_TX
+Text GLabel 4750 2275 0    50   Input ~ 0
+UART1_RX
+$Comp
+L power:GND #PWR0121
+U 1 1 617E844C
+P 2300 3550
+F 0 "#PWR0121" H 2300 3300 50  0001 C CNN
+F 1 "GND" H 2300 3400 50  0000 C CNN
+F 2 "" H 2300 3550 50  0001 C CNN
+F 3 "" H 2300 3550 50  0001 C CNN
+	1    2300 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 3250
+NoConn ~ 1600 3350
+NoConn ~ 3000 2450
+Wire Notes Line
+	5200 775  3600 775 
+Text Notes 4025 875  0    50   ~ 0
+AERQ PROGRAMMER\n
+NoConn ~ 1600 1750
+NoConn ~ 1600 1850
+$Comp
+L power:GND #PWR0127
+U 1 1 618AB3EC
+P 1600 2650
+F 0 "#PWR0127" H 1600 2400 50  0001 C CNN
+F 1 "GND" V 1605 2522 50  0000 R CNN
+F 2 "" H 1600 2650 50  0001 C CNN
+F 3 "" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	0    1    1    0   
+$EndComp
+NoConn ~ 1600 2850
+NoConn ~ 1600 2750
+$Comp
+L power:GND #PWR0104
+U 1 1 617ED65C
+P 3000 2650
+F 0 "#PWR0104" H 3000 2400 50  0001 C CNN
+F 1 "GND" V 3005 2522 50  0000 R CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 617EE05B
+P 3000 3150
+F 0 "#PWR0106" H 3000 2900 50  0001 C CNN
+F 1 "GND" V 3005 3022 50  0000 R CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 617EEDEB
+P 3000 1650
+F 0 "#PWR0107" H 3000 1400 50  0001 C CNN
+F 1 "GND" V 3005 1522 50  0000 R CNN
+F 2 "" H 3000 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3000 2350
+NoConn ~ 3000 2250
+NoConn ~ 3000 2150
+NoConn ~ 3000 2050
+NoConn ~ 3000 1950
+$Comp
+L Device:R_Small R1
+U 1 1 617F1140
+P 6150 1425
+F 0 "R1" H 6209 1471 50  0000 L CNN
+F 1 "R_Small" H 6209 1380 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 6150 1425 50  0001 C CNN
+F 3 "~" H 6150 1425 50  0001 C CNN
+	1    6150 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 617F317A
+P 6150 1600
+F 0 "#PWR0110" H 6150 1350 50  0001 C CNN
+F 1 "GND" H 6155 1427 50  0000 C CNN
+F 2 "" H 6150 1600 50  0001 C CNN
+F 3 "" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1525 6150 1600
+NoConn ~ 3000 3050
+NoConn ~ 3000 1750
+NoConn ~ 3000 1550
+NoConn ~ 3000 1450
+NoConn ~ 1600 2350
+NoConn ~ 2400 3550
+NoConn ~ 2200 3550
+$Comp
+L power:GND #PWR0101
+U 1 1 6180AFEB
+P 1525 1650
+F 0 "#PWR0101" H 1525 1400 50  0001 C CNN
+F 1 "GND" V 1530 1522 50  0000 R CNN
+F 2 "" H 1525 1650 50  0001 C CNN
+F 3 "" H 1525 1650 50  0001 C CNN
+	1    1525 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 1650 1525 1650
+NoConn ~ 1600 2250
+$Comp
+L power:+3V3 #PWR01
+U 1 1 62392A17
+P 3000 1850
+F 0 "#PWR01" H 3000 1700 50  0001 C CNN
+F 1 "+3V3" V 3015 1978 50  0000 L CNN
+F 2 "" H 3000 1850 50  0001 C CNN
+F 3 "" H 3000 1850 50  0001 C CNN
+	1    3000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 6239A12A
+P 6150 1050
+F 0 "#PWR03" H 6150 900 50  0001 C CNN
+F 1 "+3V3" H 6165 1223 50  0000 C CNN
+F 2 "" H 6150 1050 50  0001 C CNN
+F 3 "" H 6150 1050 50  0001 C CNN
+	1    6150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 617AD3A9
+P 4750 2475
+F 0 "#PWR0108" H 4750 2225 50  0001 C CNN
+F 1 "GND" V 4755 2347 50  0000 R CNN
+F 2 "" H 4750 2475 50  0001 C CNN
+F 3 "" H 4750 2475 50  0001 C CNN
+	1    4750 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 623BA1BF
+P 4750 2575
+F 0 "#PWR02" H 4750 2425 50  0001 C CNN
+F 1 "+3V3" V 4765 2703 50  0000 L CNN
+F 2 "" H 4750 2575 50  0001 C CNN
+F 3 "" H 4750 2575 50  0001 C CNN
+	1    4750 2575
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	5200 1400 3600 1400
+Text Notes 1800 950  0    50   ~ 0
+Raspberry Pico section
+Wire Notes Line
+	6950 775  5350 775 
+Wire Notes Line
+	6950 1825 5350 1825
+Wire Notes Line
+	6950 775  6950 1825
+Wire Notes Line
+	5350 775  5350 1825
+$Comp
+L Device:LED_Small D1
+U 1 1 617F1E90
+P 6150 1150
+F 0 "D1" V 6196 1080 50  0000 R CNN
+F 1 "LED_Small" V 6105 1080 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm" V 6150 1150 50  0001 C CNN
+F 3 "~" V 6150 1150 50  0001 C CNN
+	1    6150 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 1250 6150 1325
+Text Notes 5425 900  0    50   ~ 0
+LED indicator\n
+Wire Notes Line
+	825  775  825  3825
+Wire Notes Line
+	825  3825 3525 3825
+Wire Notes Line
+	3525 3825 3525 775 
+Wire Notes Line
+	3525 775  825  775 
+Text GLabel 6425 2425 0    50   Input ~ 0
+UART2_TX
+Text GLabel 6425 2325 0    50   Input ~ 0
+UART2_RX
+$Comp
+L Connector:Conn_01x04_Female UART2
+U 1 1 62483724
+P 6625 2425
+F 0 "UART2" H 6225 2675 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 6075 2150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6625 2425 50  0001 C CNN
+F 3 "~" H 6625 2425 50  0001 C CNN
+	1    6625 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6248372A
+P 6425 2525
+F 0 "#PWR04" H 6425 2275 50  0001 C CNN
+F 1 "GND" V 6430 2397 50  0000 R CNN
+F 2 "" H 6425 2525 50  0001 C CNN
+F 3 "" H 6425 2525 50  0001 C CNN
+	1    6425 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR05
+U 1 1 62483730
+P 6425 2625
+F 0 "#PWR05" H 6425 2475 50  0001 C CNN
+F 1 "+3V3" V 6440 2753 50  0000 L CNN
+F 2 "" H 6425 2625 50  0001 C CNN
+F 3 "" H 6425 2625 50  0001 C CNN
+	1    6425 2625
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5600 3025 0    50   Input ~ 0
+UART3_TX
+Text GLabel 5600 2925 0    50   Input ~ 0
+UART3_RX
+$Comp
+L Connector:Conn_01x04_Female UART3
+U 1 1 62484206
+P 5800 3025
+F 0 "UART3" H 5250 3250 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5350 2750 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5800 3025 50  0001 C CNN
+F 3 "~" H 5800 3025 50  0001 C CNN
+	1    5800 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 6248420C
+P 5600 3125
+F 0 "#PWR06" H 5600 2875 50  0001 C CNN
+F 1 "GND" V 5605 2997 50  0000 R CNN
+F 2 "" H 5600 3125 50  0001 C CNN
+F 3 "" H 5600 3125 50  0001 C CNN
+	1    5600 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR07
+U 1 1 62484212
+P 5600 3225
+F 0 "#PWR07" H 5600 3075 50  0001 C CNN
+F 1 "+3V3" V 5615 3353 50  0000 L CNN
+F 2 "" H 5600 3225 50  0001 C CNN
+F 3 "" H 5600 3225 50  0001 C CNN
+	1    5600 3225
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5550 2400 0    50   Input ~ 0
+UART4_TX
+Text GLabel 5550 2300 0    50   Input ~ 0
+UART4_RX
+$Comp
+L Connector:Conn_01x04_Female UART4
+U 1 1 62484C57
+P 5750 2400
+F 0 "UART4" H 5300 2650 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5225 2100 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5750 2400 50  0001 C CNN
+F 3 "~" H 5750 2400 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 62484C5D
+P 5550 2500
+F 0 "#PWR08" H 5550 2250 50  0001 C CNN
+F 1 "GND" V 5555 2372 50  0000 R CNN
+F 2 "" H 5550 2500 50  0001 C CNN
+F 3 "" H 5550 2500 50  0001 C CNN
+	1    5550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR09
+U 1 1 62484C63
+P 5550 2600
+F 0 "#PWR09" H 5550 2450 50  0001 C CNN
+F 1 "+3V3" V 5565 2728 50  0000 L CNN
+F 2 "" H 5550 2600 50  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4750 3000 0    50   Input ~ 0
+UART5_TX
+Text GLabel 4750 2900 0    50   Input ~ 0
+UART5_RX
+$Comp
+L Connector:Conn_01x04_Female UART5
+U 1 1 62487448
+P 4950 3000
+F 0 "UART5" H 4550 3200 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 4425 2700 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4950 3000 50  0001 C CNN
+F 3 "~" H 4950 3000 50  0001 C CNN
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6248744E
+P 4750 3100
+F 0 "#PWR010" H 4750 2850 50  0001 C CNN
+F 1 "GND" V 4755 2972 50  0000 R CNN
+F 2 "" H 4750 3100 50  0001 C CNN
+F 3 "" H 4750 3100 50  0001 C CNN
+	1    4750 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR011
+U 1 1 62487454
+P 4750 3200
+F 0 "#PWR011" H 4750 3050 50  0001 C CNN
+F 1 "+3V3" V 4765 3328 50  0000 L CNN
+F 2 "" H 4750 3200 50  0001 C CNN
+F 3 "" H 4750 3200 50  0001 C CNN
+	1    4750 3200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1600 2450 0    50   Input ~ 0
+UART2_TX
+Text GLabel 1600 2550 0    50   Input ~ 0
+UART2_RX
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 61797F3A
+P 2300 2400
+F 0 "U1" H 2300 3615 50  0000 C CNN
+F 1 "Pico" H 2300 3524 50  0000 C CNN
+F 2 "mmilibrary:RPi_Pico_SMD_TH" V 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 2950 0    50   Input ~ 0
+UART3_TX
+Text GLabel 1600 3050 0    50   Input ~ 0
+UART3_RX
+Text GLabel 3000 3350 2    50   Input ~ 0
+UART4_TX
+Text GLabel 3000 3250 2    50   Input ~ 0
+UART4_RX
+Text GLabel 3000 2850 2    50   Input ~ 0
+UART5_TX
+Text GLabel 3000 2750 2    50   Input ~ 0
+UART5_RX
+NoConn ~ 3000 2950
+Wire Notes Line
+	3600 1400 3600 775 
+Wire Notes Line
+	5200 775  5200 1400
+$Comp
+L Connector:Conn_01x04_Female UART1
+U 1 1 623AF08C
+P 4950 2375
+F 0 "UART1" H 4550 2600 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 4325 2050 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4950 2375 50  0001 C CNN
+F 3 "~" H 4950 2375 50  0001 C CNN
+	1    4950 2375
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4150 1875 4150 3375
+Wire Notes Line
+	4150 3375 6950 3375
+Wire Notes Line
+	6950 3375 6950 1875
+Wire Notes Line
+	6950 1875 4150 1875
+Text Notes 5525 1975 0    50   ~ 0
+SPARE UART\n
+$EndSCHEMATC
