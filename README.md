@@ -1,15 +1,17 @@
 # Raspberry Pi Pico UART breakout
  A simple 2-layer PCB making the Raspberry Pi Pico a 6 way UART adapter.
  The main purpouse of this board is to be the programmer for the AERQ project which uses UART 0.
- ![image][Images/3DSimulation.PNG]
 <figure>
 <img src="Images/3DSimulation.PNG" width="600px">
-<figcaption>Figure 1: The NUCLEO F401RE board pin descriptions</figcaption>
+<figcaption>Figure 1: 3D simulation of the board</figcaption>
 </figure>
 # Hardware
 The board uses six 2.54mm holes for the UART ports and a resistor/LED to indicate the 3v3 bus. 
 The board dimensions are: 44.75mm x 55mm 
-![image][Images/Layout.PNG]
+<figure>
+<img src="Images/Layout.PNG" width="600px">
+<figcaption>Figure 2: Layout</figcaption>
+</figure>
 
 # Limits
 <b>The maximum output on the 3v3 rail should not exceed ~ 300 mA.</b>
