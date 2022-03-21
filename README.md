@@ -11,7 +11,7 @@ The board uses six 2.54mm holes for the UART ports and a resistor/LED to indicat
 The board dimensions are: 44.75mm x 55mm 
 <figure>
 <img src="Images/Layout.PNG" width="600px">
-<center><figcaption>Figure 2: Layout</figcaption></center>
+<figcaption align="center">Figure 2: Layout</figcaption>
 </figure>
 
 # Limits
