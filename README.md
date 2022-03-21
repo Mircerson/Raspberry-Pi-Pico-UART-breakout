@@ -1,6 +1,6 @@
 # Raspberry Pi Pico UART breakout
  A simple 2-layer PCB making the Raspberry Pi Pico a 6 way UART adapter.
- The main purpouse of this board is to be the programmer for the AERQ project which uses UART 0.
+ The main purpose of this board is to be the programmer for the AERQ project which uses UART 0.
 <figure>
 <img src="Images/3DSimulation.PNG" width="300px">
 <figcaption>Figure 1: 3D simulation of the front of the board</figcaption>
