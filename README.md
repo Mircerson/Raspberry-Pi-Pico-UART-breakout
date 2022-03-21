@@ -9,10 +9,12 @@
 # Hardware
 The board uses six 2.54mm holes for the UART ports and a resistor/LED to indicate the 3v3 bus. 
 The board dimensions are: 44.75mm x 55mm 
+<p align="center">
 <figure>
 <img src="Images/Layout.PNG" width="600px">
-<figcaption align="center">Figure 2: Layout</figcaption>
+<figcaption>Figure 2: Layout</figcaption>
 </figure>
+</p>
 
 # Limits
 <b>The maximum output on the 3v3 rail should not exceed ~ 300 mA.</b>
