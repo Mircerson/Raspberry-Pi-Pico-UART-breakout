@@ -12,7 +12,7 @@ The board dimensions are: 44.75mm x 55mm
 <figure>
 <p align="center">
 <img src="Images/Layout.PNG" width="600px">
-<figcaption>Figure 2: Layout</figcaption>
+<figcaption align = "center">Figure 2: Layout</figcaption>
 </p>
 </figure>
 
