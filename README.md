@@ -5,12 +5,13 @@
 <img src="Images/3DSimulation.PNG" width="600px">
 <figcaption>Figure 1: 3D simulation of the board</figcaption>
 </figure>
+
 # Hardware
 The board uses six 2.54mm holes for the UART ports and a resistor/LED to indicate the 3v3 bus. 
 The board dimensions are: 44.75mm x 55mm 
 <figure>
 <img src="Images/Layout.PNG" width="600px">
-<figcaption>Figure 2: Layout</figcaption>
+<center><figcaption>Figure 2: Layout</figcaption></center>
 </figure>
 
 # Limits
