@@ -27,7 +27,7 @@ No reason in particular, it was a test for [easyw's](https://github.com/easyw/RF
 
 
 # Software
-To make use of all the 6 UART ports available, use [harrywalsh's](https://github.com/ncarandini/KiCad-RP-Pico) software.
+To make use of all the 6 UART ports available, use [harrywalsh's](https://github.com/harrywalsh/pico-hw_and_pio-uart-gridge/tree/HW_and_pio_uarts) software.
 
 This will make the Pi Pico into a 6 way UART adapter, all the UART ports are marked on the board.
 
